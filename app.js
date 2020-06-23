@@ -37,7 +37,7 @@ function addTask(e) {
     const link = document.createElement('a');
     link.className = 'delete-item secondary-content';
     // add Icon
-    link.innerHTML = '<i class="material-icons">remove</i>';
+    link.innerHTML = '<i class="material-icons small">remove</i>';
 
 
     console.log(li);
