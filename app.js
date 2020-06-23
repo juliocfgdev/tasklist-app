@@ -68,7 +68,7 @@ function addTask(e) {
     const link = document.createElement('a');
     link.className = 'delete-item secondary-content';
     // add Icon
-    link.innerHTML = '<i class="material-icons small">remove</i>';
+    link.innerHTML = '<i class="fa fa-remove"></i>';
 
     // Appends
     li.appendChild(link);
@@ -102,16 +102,21 @@ function storeTaskInLocalStorage(task) {
 function removeTask(e) {
     if (e.target.parentElement.classList.contains('delete-item')) {
         if (confirm('Tem Certeza?')) {
+
+
             e.target.parentElement.parentElement.remove();
 
             // Remove from local storage
+
+
             removeTaskFromLocalStorage(e.target.parentElement.parentElement);
         }
     }
 }
 
-// Remove from local storage
+// Remove from local storage 
 function removeTaskFromLocalStorage(taskItem) {
+    console.log(taskItem.textContent);
     let tasks;
     if (localStorage.getItem('tasks') === null) {
         tasks = [];
