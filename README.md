@@ -1,6 +1,6 @@
 # tasklist-app
 
-Live Version: 
+Live Version: https://juliocfgdev.github.io/tasklist-app/.
 
 Aplicação de listagem de tarefas, bem simples, com alocação local de dados.
 
