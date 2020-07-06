@@ -1,7 +1,8 @@
 # tasklist-app
-
-Live Version: https://juliocfgdev.github.io/tasklist-app/.
-
-Aplicação de listagem de tarefas, bem simples, com alocação local de dados.
-
-Tecnologias usadas: HTML, Materialize CSS, Vanilla JavaScript.
+## Descrição 
+Aplicação de listagem de tarefas, com alocação local de dados.
+### Tecnologias Usadas:
+* HTML5
+* CSS3 + Materialize CSS
+* Vannila JS 
+#### Versão Live:  https://juliocfgdev.github.io/tasklist-app/.
